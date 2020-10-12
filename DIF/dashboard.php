@@ -147,7 +147,7 @@ if(isset($_POST['search'])){
 }
 ?>
 <br/>
-<a href="http://nimith.vanillanetworks.com/DIF/upload.php">Home</a>
+<a href="http://localhost/DIF/upload.php">Home</a>
 
 
 </center>
