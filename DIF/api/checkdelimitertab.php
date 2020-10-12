@@ -50,7 +50,7 @@ function checkdelimitertab($str4,$delim,$name,$format){
 			}
 			
 			echo("</table>");
-			echo('<form action="http://nimith.vanillanetworks.com/DIF/upload.php" method="POST">');
+			echo('<form action="http://localhost/DIF/upload.php" method="POST">');
 			$str2="<input type=" ."'hidden'" . " name=" ."'filename'" ." value=" ."'$name'" . "/>"  ;
 			echo($str2);
 			$str3="<input type=" ."'hidden'" . " name=" ."'delimitern'" ." value=" ."'$delim'" . "/>"  ;
@@ -65,7 +65,7 @@ function checkdelimitertab($str4,$delim,$name,$format){
 			echo('</table>');
 			echo("</br>");
 			echo("</table>");
-			echo('<form action="http://nimith.vanillanetworks.com/DIF/upload.php" method="POST">');
+			echo('<form action="http://localhost/DIF/upload.php" method="POST">');
 			echo("or");
 			echo("</br>");
 			echo("</br>");
