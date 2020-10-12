@@ -35,6 +35,30 @@ name
 To do 
 change the name ,username, password , host according to your mysql server details in db_connect
 change  all the href tags tags to your domain name.
+create tables in you mysql server
+
+-csv_users
+userid integer
+username varchar(255)
+password varchar(255)
+email varchar(255)
+name varchar(255)
+join_date timestamp
+
+-csv_products
+productid integer
+name varchar(255)
+cost decimal(6,2)
+status boolean
+date_added timestmap
+
+-csv_sales
+saleid integer
+userid integer
+productid integer
+quantity integer
+status varchar(255)
+time_placed timestamp
 
 open the system by opening upload.php
 
