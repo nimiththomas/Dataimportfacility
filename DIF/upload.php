@@ -163,7 +163,7 @@ if(isset($_POST['decy'])){
 }
 ?>
 </br>
-<a href="http://nimith.vanillanetworks.com/DIF/dashboard.php">DASHBOARD</a>
+<a href="http://localhost/DIF/dashboard.php">DASHBOARD</a>
 
 </center>
   
